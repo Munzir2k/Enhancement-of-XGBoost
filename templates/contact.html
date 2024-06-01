@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<title>Contact Us</title>
+		<style>
+			body {
+				font-family: Arial, serif;
+				margin: 2rem;
+			}
+			h1 {
+				text-align: center;
+				margin-bottom: 1rem;
+			}
+			p {
+				line-height: 1.5;
+			}
+			label {
+				display: block;
+				margin-bottom: 0.5rem;
+			}
+			input[type='text'],
+			input[type='email'],
+			textarea {
+				width: 100%;
+				padding: 0.7rem;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-bottom: 1rem;
+			}
+			textarea {
+				height: 150px;
+			}
+			button[type='submit'] {
+				background-color: #4ca0af; /* Green */
+				color: white;
+				padding: 1rem 2rem;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+			button[type='submit']:hover {
+				background-color: #00c8ff;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: sans-serif;
+				background-image: url(https://static.vecteezy.com/system/resources/previews/032/948/573/non_2x/wealth-and-safety-behind-metal-door-vault-free-photo.jpg) !important;
+				background-repeat: no-repeat !important;
+				background-size: 100% 100% !important;
+			}
+			#nav-bar {
+				position: sticky;
+				top: 0;
+				z-index: 10;
+			}
+			.navbar {
+				background: rgb(0, 183, 255) !important;
+			}
+			.navbar-nav li {
+				padding: 0 10px;
+			}
+			.navbar-nav li a {
+				color: #fff !important;
+				font-weight: 600;
+			}
+			.navbar-toggler {
+				outline: none !important;
+			}
+			#banner {
+				background: rgb(0, 183, 255) !important;
+				color: #fff;
+				padding-top: 5%;
+			}
+			.promo-title {
+				font-size: 40px;
+				font-weight: 600;
+				margin-top: 100px;
+			}
+			body {
+				margin: auto;
+				background: #eaeaea;
+				font-family: 'Open Sans', sans-serif;
+			}
+			.info p {
+				text-align: center;
+				color: #999;
+				text-transform: none;
+				font-weight: 600;
+				font-size: 15px;
+				margin-top: 2px;
+			}
+
+			.info i {
+				color: #f6aa93;
+			}
+			form h1 {
+				font-size: 18px;
+				background: rgb(0, 183, 255) none repeat scroll 0% 0%;
+				color: rgb(255, 255, 255);
+				padding: 22px 25px;
+				border-radius: 5px 5px 0px 0px;
+				margin: auto;
+				text-shadow: none;
+				text-align: left;
+			}
+
+			form {
+				border-radius: 5px;
+				max-width: 700px;
+				width: 100%;
+				margin: 5% auto;
+				background-color: #ffffff;
+				overflow: hidden;
+			}
+
+			.important {
+				color: #f00;
+			}
+
+			p {
+				margin: 0px;
+				font-weight: 500;
+				line-height: 2;
+				color: #333;
+			}
+
+			h1 {
+				text-align: center;
+				color: #ffffff;
+				text-shadow: 1px 1px 0px;
+				margin: 50px 0px 0px 0px;
+			}
+
+			input {
+				border-radius: 0px 5px 5px 0px;
+				border: 1px solid #000000;
+				margin-bottom: 15px;
+				width: 75%;
+				height: 40px;
+				float: left;
+				padding: 0px 15px;
+			}
+
+			a {
+				text-decoration: inherit;
+			}
+
+			textarea {
+				border-radius: 0px 5px 5px 0px;
+				border: 1px solid #eee;
+				margin: 0;
+				width: 75%;
+				height: 130px;
+				float: left;
+				padding: 0px 15px;
+			}
+
+			.form-group {
+				overflow: hidden;
+				clear: both;
+			}
+
+			i {
+				color: #555;
+			}
+
+			.contentform {
+				padding: 40px 30px;
+			}
+
+			.bouton-contact {
+				background-color: #81bda4;
+				color: #fff;
+				text-align: center;
+				width: 100%;
+				border: 0;
+				padding: 17px 25px;
+				border-radius: 0px 0px 5px 5px;
+				cursor: pointer;
+				margin-top: 40px;
+				font-size: 18px;
+			}
+
+			.leftcontact {
+				width: 49.5%;
+				float: left;
+				border-right: 1px dotted #ccc;
+				box-sizing: border-box;
+				padding: 0px 15px 0px 0px;
+			}
+
+			.rightcontact {
+				width: 49.5%;
+				float: right;
+				box-sizing: border-box;
+				padding: 0px 0px 0px 15px;
+			}
+
+			.validation {
+				display: none;
+				margin: 0 0 10px;
+				font-weight: 400;
+				font-size: 13px;
+				color: #de5959;
+			}
+
+			#sendmessage {
+				border: 1px solid #fff;
+				display: none;
+				text-align: center;
+				margin: 10px 0;
+				font-weight: 600;
+				margin-bottom: 30px;
+				background-color: #ebf6e0;
+				color: #5f9025;
+				border: 1px solid #b3dc82;
+				padding: 13px 40px 13px 18px;
+				border-radius: 3px;
+				box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+			}
+
+			#sendmessage.show,
+			.show {
+				display: block;
+			}
+            .message {
+                background-color: white;
+                width: 300px;
+				margin-top: 14.3rem;
+            }
+			.contact {
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<section id="nav-bar">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a
+					class="navbar-brand font-weight-bold"
+					href="#"
+					style="color: white"
+					>Cedarwood BANK</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarNav"
+				>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a
+								class="nav-link"
+								href="/"
+								>Prediction <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="/create-account"
+								>Create Account</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="/contact"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</section>
+		<h1>Contact Us</h1>
+		<p>Get in touch with us using the form below.</p>
+		<form class="contact">
+			<label for="name">Name:</label>
+			<input
+				type="text"
+				id="name"
+				name="name"
+				placeholder="Your Name"
+			/>
+			<br />
+			<label for="email">Email:</label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				placeholder="youremail@example.com"
+			/>
+			<br />
+			<label for="message">Message:</label>
+			<textarea
+				id="message"
+				name="message"
+				rows="5"
+				placeholder="Write your message here"
+			></textarea>
+			<br />
+			<button type="submit">Send Message</button>
+		</form>
+        <div class="message">
+            <p>Alternatively, you can reach us at:</p>
+            <ul>
+                <li>Email: mohammadmunzir2k@gmail.com</li>
+                <li>Phone: +91 7700 961316</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="unique-color-dark mt-4 white-text pb-10" style="background-color: #1c2331 !important;">
+                <div class="blue-gradient">
+                  <div class="container">
+                    <!-- Grid row-->
+                    <div class="row py-3 d-flex align-items-center">
+                      <!-- Grid column -->
+                      <div
+                        class="col-md-6 col-lg-5 text-center text-md-left"
+                      >
+                        <h6 class="mb-0 text-white">Mohammad Munzir   <a href="https://github.com/Munzir2k/Internship-ML-project"><i class="ml-5 fa fa-github fa-2x" aria-hidden="true"></i></a>
+                      </div>
+                      Grid column
+          
+                      
+                      <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                  </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

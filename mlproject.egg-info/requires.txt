@@ -1,0 +1,12 @@
+Flask
+scikit-learn
+numpy
+xgboost
+catboost
+ada-boost
+pandas
+pandas-profiling
+matplotlib
+seaborn
+imblearn
+bayesian-optimization
